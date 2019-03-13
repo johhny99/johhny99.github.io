@@ -1,0 +1,41 @@
+/* CSS Document */
+
+#d3{width: 80%;margin: auto;padding: 10px}
+#d3 th{vertical-align: top;font-size: 20px;width: 10%;padding:10px 10px 0px 20px}
+#d3 td{padding: 10px 10px 10px 10px;vertical-align: top; width: 50%}
+#d3 legend{color: saddlebrown; font-size: 18px;padding-left: 0px}
+#infor td{font-size: 14px}
+#smCap{font-size: 13px;color: blue}
+#ryPr {font-size: 20px;color: darkred}
+#des{font-size: 12px}
+#Pic{border: 1px ridge grey;padding:5px 10px 20px 10px}
+
+#drop img{padding-left: 20px}
+#drop span{font-size: 20px;left: 0;top: 0}
+
+div.stars {
+  width: 270px; display: inline-block;
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+  float: right; padding: 10px; font-size: 36px; 
+	color: #444; transition: all .2s;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005'; color: #FD4; transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+  color: #FE7; text-shadow: 0 0 20px #952;
+}
+ 
+input.star-1:checked ~ label.star:before { color: #F62; }
+ 
+label.star:before {
+  content: '\f006'; font-family: FontAwesome;
+}
+
+
