@@ -1,0 +1,68 @@
+/* CSS Document */
+
+#head{text-align: center; background-color: burlywood; 
+		color:white;text-shadow: 2px 2px 5px black;
+		font-size: 200%; width: 90%;padding-bottom: 5px;
+		padding-left: 5%;padding-right: 5%}
+input{width: 90%;height: 20px}
+#menu{
+		text-align: center; border-bottom-color: black;border-top-color: black;
+		padding-top: 5px;padding-bottom: 5px;
+		border-bottom: 3px solid black;border-top: 3px solid black}
+#menu a{text-decoration: none}
+#menu2 {font-size: 180%; width: 100%;background: black;color: aliceblue;text-shadow:2px 2px 5px white;}
+#menu2 a{color: aliceblue;text-shadow:2px 2px 5px white;}
+#menu2 td{width: 30%}
+
+.dropdown {
+    position: relative;
+    display: inline-block;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 110px;
+	width: 100%;
+	left: -10%;
+    box-shadow: 0px 8px 16px 0px white;
+    padding: 10px 5px;
+    z-index: 1;
+	line-height: 45px;}
+.dropdown-content a{padding: 0px 5px}
+.dropdown:hover .dropdown-content {	display: block;}
+
+#Logo1{float: left ; margin-left: 0;margin-top:0;height: 100%;  width: 10%;padding-top: 0px;
+		position: fixed;top: 0;left:0.5% }
+#Logo2{float: right; margin-right: 0;margin-top:0;height: 100%;  width: 10%;padding-top: 0px;
+		position: fixed;top: 0;right: 0.5%}
+
+#d2{width: 70%;margin: auto;padding-top: 20px;padding-bottom: 10px}
+#red {border:1px solid red}
+
+
+#d2 th{width:30% ;height: 30%;padding-top: 25px}
+#d2 td{font-size: 15px;padding-left: 4%;padding-right: 3%}
+#d2 a{font-size: 20px;text-decoration: none; color: darkred;}
+#f1 th{width: 30%;padding: 15px}
+#f1 tr{width: 100%}
+#f1 table{width: 100%}
+#f1{width: 60%}
+
+#foot{text-align: center; background-color: burlywood; color: aliceblue;
+		text-shadow: 2px 2px 5px black;	width: 100%;padding-bottom: 10px;padding-top: 10px}
+#foot2{background: wheat;color: saddlebrown;padding-top: 0px}
+#foot2 form{top: 0px;}
+
+#tb1 {border-bottom:3px solid #D8B969;border-top:3px solid #D8B969}
+#foot{width: 100%;}
+#foot1{background-image: url(../photo/wood.jpg);padding-bottom: 5px;padding-top: 5px}
+
+
+input{width: 90%;height: 20px}
+textarea{width: 90%}
+
+#d3 td{width: 20%}
+
+
+
+
