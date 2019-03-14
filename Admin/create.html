@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="../CSS/log.css"/>
+	<script src="../script/create.js"></script>
+</head>
+
+<body>
+	<h2 align="center" style="background: wheat;color: saddlebrown;padding: 10px ">Admin Server</h2>
+		<div align="right"><a style="text-decoration: none" href="Admin.html">Admin</a></div>
+	<form id="f1">
+	<table align="center" border="1">
+		<tr>
+			<td colspan="2"><h2>Create new product</h2></td>
+		</tr>
+		<tr>
+			<td width="30%">Product name:</td>
+			<td><input width="100%" type="text" id="txtName"/></td>
+		</tr>
+		<tr>
+			<td>Price:</td>
+			<td><input width="100%" type="text" id="txtPrice"/></td>
+		</tr>
+		<tr>
+			<td>Product detail:</td>
+			<td><input width="100%" type="text" id="txtDtl"/></td>
+		</tr>
+		<tr>
+			<td>Manufacture:</td>
+			<td><input width="100%" type="text" id="txtMan"/></td>
+		</tr>
+		<tr>
+			<td>ASIN:</td>
+			<td><input width="100%" type="text" id="txtASIN"/></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="2">
+				<input type="submit" onClick="create()" value="Create"/>
+				<input type="reset" value="Reset"/>
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
