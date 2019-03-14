@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="../content/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../CSS/admin.css"/>
+	<script src="../script/create.js"></script>
+</head>
+
+<body>
+	<div>
+		<h2 align="center" style="background: wheat;color: saddlebrown;padding: 10px ">Admin Server</h2>
+		
+		<a href="create.html">Create new product</a> || <a style="text-align: " href="../Home.html">Back Home</a>
+		
+	<table id="pro" class="table table-bordered table-hover table-striped">
+		<tr>
+			<th>Product Name</th>
+			<th>Price:</th>
+			<th>ASIN:</th>
+			<th>Manufacture:</th>
+			<th>Action:</th>
+		</tr>
+		<tr id="1">
+			<td>S.H. Figuarts SIC Masked Kamen Rider Decade Complete Form</td>
+			<td>$50.86</td>
+			<td>B002G01EOS</td>
+			<td>Bandai</td>
+			<td>
+				<input class="btn-danger" type="submit" onClick="Delete(this)" value="Delete"/>
+				<a href="update.html"><input class="btn-warning" type="submit" value="Update"/></a>
+				<a href="../Detail/figure/decade/decade.html"><input  class="btn-success" type="submit" value="View"/></a>
+			</td>	
+		</tr>
+		<tr id="2">
+			<td>Kamen Rider Gaim DX Kiwami Lock Seed & Kachidoki Lock Seed Set</td>
+			<td>$123.75</td>
+			<td>B00KPP91QE</td>
+			<td>Bandai</td>
+			<td>
+				<input class="btn-danger" type="submit" onClick="Delete(this)" value="Delete"/>
+				<a href="update.html"><input class="btn-warning" type="submit" value="Update"/></a>
+				<a href="../Detail/others/gaimLock/gaimLock.html"><input  class="btn-success" type="submit" value="View"/></a>
+			</td>		
+		</tr>
+		<tr id="3">
+			<td>Bandai Kamen Rider Build DX Build Driver</td>
+			<td>$70.47</td>
+			<td>B074ZBK8R5</td>
+			<td>Bandai</td>
+			<td>
+				<input class="btn-danger" type="submit" onClick="Delete(this)" value="Delete"/>
+				<a href="update.html"><input class="btn-warning" type="submit" value="Update"/></a>
+				<a href="../Detail/henshin/build/build.html"><input  class="btn-success" type="submit" value="View"/></a>
+			</td>		
+		</tr>
+	</table>
+	</div>
+</body>
+</html>
