@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet"type="text/css" href="../../../CSS/pri.css"/>
+	<script src="../../../script/drop.js"></script>
+</head>
+
+<body>
+	<div align="center"><a href="../../../Home.html"/><img width="80%" src="../../../photo/wall1.jpg"/></a></div>
+	<div style="padding-bottom: 1%"><form style="margin: auto; width: 90%">
+		<table width="100%">
+		<tr><td colspan="3"><h2 id="head">ATN Company Figure SHOP</h2></td></tr>
+		<tr style="width: 80%">
+			<td width="30%"> </td>
+			<td><input type="text" style="float: right" align="right"/></td>
+			<td><input type="button" style="width: 60%" value="Search"/></td>
+		</tr>
+		</table>
+	</form></div>
+	
+	
+<div id = "menu">
+	<table id=menu2>
+		<tr>
+			<td><a href="../../../Home.html"/>Home</td>
+			<td>
+				<div class="dropdown">
+				<span>Products</span>
+				<div align="left" class="dropdown-content">
+				<a href="../../../Products/figure.html">Figure</a>
+				<a href="../../../Products/henshin.html">Henshin</a>
+				<a href="../../../Products/other.html">Other</a>
+				</div>	
+			</td>
+			<td><a href="../../../SignIn.html">Signin</a></td>
+		</tr>
+	</table>
+</div>
+	<div>
+	  <img src="../../../photo/Logo.png" id=Logo1>
+	
+	<form align="center" style="width: 80%;margin: auto" id="d3">
+		<table width="100%">
+			<tr align="center">
+				<th colspan="4" align="center" width="100%" style="font-size:150%">Products chosen:</th>
+			</tr>
+			<tr>
+				<th width="30%">Name</th>
+				<th width="20%">Image</th>
+				<th width="20%">ASIN</th>
+				<th>Quantity</th>
+				<th width="5%">Price</th>
+			</tr>
+			<tr>
+				<td>Bandai Tamashii Nations S.H.Figuarts Masked Rider Ryuki and Dragreder Figure Set</td>
+				<td><img width="40%" src="1.jpg"</td>
+				<td>B004Y3U7PM</td>
+				<td><input type="number" name="txtQuan" onChange="SumTotal()" min="1" max="5"</td>
+				<td><input type="number" name="txtUP" readonly value="114.45"/></td>
+			</tr>
+			<tr>
+				<th colspan="2">Total</th>
+				<th id="TotalPrice"><input type="number" name="txtTotal"/>$</th>
+				<td><input type="button" value="Buy" onClick="buy()"/></td>
+			</tr>
+		</table>
+	</form>		
+	
+	  <img src="../../../photo/Logo2.png" id=Logo2>
+	</div>
+</body>
+<footer>
+	<div id="foot2" align="center">
+		<form>
+			<table width="100%" id="tb1">
+				<tr><th id="foot1" colspan="2" style="font-size: 20px">ATN Company Figure SHOP</th></tr>
+				<tr>
+					<th colspan="2">Contact</th>
+				</tr>
+				<tr>
+					<td align="right">
+						<pr>
+							<dd>Address:</dd>
+							<dd>Contact number:</dd>
+							<dd>Business hours:</dd>
+						</pr>
+					</td>
+					<td>
+						<pr>
+							<dd>143 Pham Thu Thu</dd>
+							<dd>073123091</dd>
+							<dd>10 a.m - 9 p.m</dd>
+						</pr>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</footer>
+</html>
